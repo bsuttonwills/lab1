@@ -1,4 +1,36 @@
 body {
-    background-color: black;
-    color: gray;
+    background-color: #EBCCA2;
+    color: #0F1392;
+}
+
+header, nav, main, footer {
+    text-align: center;
+}
+
+nav a { /* links within nav container */
+    padding: 15px;
+    padding-bottom: 4px;
+    font-size: 1.8em;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover { /*psuedo class*/
+    border-bottom: 2px solid #A2C1EB;
+    font-size: 2em;
+    transition: .9s; /* transition effect */
+}
+
+nav home a {
+    color: #0F1392;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+footer p {
+    font-size: .7em;
+    color: black;
 }
