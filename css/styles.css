@@ -21,9 +21,15 @@ nav a:hover { /*psuedo class*/
     transition: .9s; /* transition effect */
 }
 
-/*nav home a {*/
-/*    color: #0F1392;*/
-/*}*/
+nav home a {
+    color: #0F1392;
+}
+nav about a {
+    color: #0F1392;
+}
+nav contact a {
+    color: #0F1392;
+}
 
 main {
     display: flex;
