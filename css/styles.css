@@ -21,9 +21,9 @@ nav a:hover { /*psuedo class*/
     transition: .9s; /* transition effect */
 }
 
-nav home a {
-    color: #0F1392;
-}
+/*nav home a {*/
+/*    color: #0F1392;*/
+/*}*/
 
 main {
     display: flex;
@@ -33,4 +33,41 @@ main {
 footer p {
     font-size: .7em;
     color: black;
+}
+
+table {
+    margin: 0px auto;
+}
+
+td {
+    padding-right: 10px;
+    font-size: 1.3em;
+}
+
+td strong {
+    color: #0F1392;
+}
+
+#table-header {
+    background-color: #BCBCBC;
+}
+
+.table-row {
+    background-color: #E1E1E1;
+}
+
+ ul {
+     width:500px;
+     margin: 0 auto;
+     text-align: left;
+ }
+ 
+ .hobby {
+     color: brown;
+ }
+ 
+h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 4em;
+    margin-bottom: 0px;
 }
